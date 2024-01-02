@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f3f3f3;
+}
+
+.left-part {
+    width: 50%;
+}
+
+.right-part {
+    width: 50%;
+}
+
+#image1:hover + #image2 {
+    /* Ajoutez le style pour l'effet au survol de l'image 1 */
+}
+
+.quote {
+    background-color: #e6f7ff;
+    padding: 20px;
+}
+
+.availability {
+    background-color: #ccffcc;
+    padding: 20px;
+}
+
+.testimonials {
+    background-color: #ffd699;
+    padding: 20px;
+}
+
+.author-info {
+    background-color: #d9d9d9;
+    padding: 20px;
+}
+
+.contact {
+    background-color: #e6e6e6;
+    padding: 20px;
+}
