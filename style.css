@@ -1,49 +1,65 @@
 body {
-    font-family: 'Arial', sans-serif;
     margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-.banner {
+.container {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #f3f3f3;
 }
 
-.left-part {
+.carousel {
     width: 50%;
+    overflow: hidden;
 }
 
-.right-part {
-    width: 50%;
+.carousel img {
+    width: 100%;
+    display: none;
 }
 
-#image1:hover + #image2 {
-    /* Ajoutez le style pour l'effet au survol de l'image 1 */
+.book-info {
+    width: 45%;
+    text-align: center;
 }
 
-.quote {
-    background-color: #e6f7ff;
-    padding: 20px;
+.book-title {
+    font-size: 24px;
+    color: #B81A83;
+    margin-bottom: 10px;
+    transition: color 0.3s ease-in-out;
 }
 
-.availability {
-    background-color: #ccffcc;
-    padding: 20px;
+.book-subtitle {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+    transition: color 0.3s ease-in-out;
 }
 
-.testimonials {
-    background-color: #ffd699;
-    padding: 20px;
+.book-description {
+    font-size: 16px;
+    color: #666;
 }
 
-.author-info {
-    background-color: #d9d9d9;
-    padding: 20px;
+.order-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #B81A83;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease-in-out;
 }
 
-.contact {
-    background-color: #e6e6e6;
-    padding: 20px;
+.order-button:hover {
+    background-color: #882067;
+}
+
+.container:hover .book-title,
+.container:hover .book-subtitle {
+    color: #882067;
 }
